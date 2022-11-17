@@ -1,0 +1,117 @@
+TESTING BOTS
+
+TESTING PLAN
+Overview: 
+Test the duel bot website for bugs and functions that aren't working properly
+
+Test Criteria:
+-when clicking all bots button it should require all the bot cards for player.
+- When winning a duel it should give a point to the player a winning point instead of losses.
+- making sure it's a fair loss or win.
+
+Entry Criteria:
+-test criteria provided
+-Run version to see if it runs correctly
+-should be up to date 
+
+Exit Criteria:
+- all functions should be working
+
+Other details:
+-localhost:3000
+-running on port 3000
+
+TEST S-1
+When bots fight and player wins. It should be given a point for wins instead of losses
+
+steps:
+1. navigate to duel duos
+2.pick two bots
+3. click DUEL!
+4. player should either receive win or loss
+
+Test PostConditions:
+-when winning a fight it should be granting the player a win instead of loss
+-When playing and clicking duel it should be given a result of loss and granting the player a loss.
+
+Bug report:
+
+GIves point to losses when they win.
+
+
+
+Steps to get there:
+Go to localhost:3000
+Play a duel
+Win in the game
+Expected results: 
+When a player wins a game it should give a point to the wins 
+When a player loses it should be giving a point to the losses for the player
+Backend shouldn’t be getting errors
+Actual results:
+When player get a win they get a point in the loses 
+Backend shouldn’t be getting errors
+Environment: 
+Version 107.0.5304.110 (Official Build) (x86_64
+macOS Monterey version 12.6
+Attachments:
+none
+
+
+
+
+
+
+TEST S-2
+When clicking see all bots it should give you all the bots
+steps:
+1. go to duel duo
+2.click on the top button "see all bots"
+3. should give you an option for all the bots
+4. The bots should all appear and can random draw 5 bots
+Test PostConditions:
+-Button isn't giving any options or shows of bots.
+-Button isn't even working
+
+
+ Bug report:
+Get all bots button should be retrieving all bots.
+
+Steps:
+GO to local host 
+Click on the get all bots button
+
+Expected results:
+It should be retrieving  all the bots and display them for player to see
+Button clicking is creating erors
+Environment: 
+Version 107.0.5304.110 (Official Build) (x86_64
+macOS Monterey version 12.6
+Attachments: none
+
+
+TEST S-3
+
+
+When picking bots based on their features it should correctly duel against the computer bot to a win or lose
+
+
+
+steps:
+1. go to duel duo
+2. choose 2 bots to play with strong health and ability
+3. computer and player should duel
+4. should be giving correct win or loss from duel based on health and ability of bots.
+5. click play again and duel
+6. choose bots with weak health and ability.
+computer and player should duel
+should be a loss if bot is weaker.
+
+
+Test PostConditions:
+-when playing a computer bot that is stronger than chosen player bots It always wins no matter what.
+- Wins should always be fair based on ability and health
+
+
+
+Activity
